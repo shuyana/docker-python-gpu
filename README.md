@@ -1,4 +1,4 @@
-# Poetry CUDA Docker image
+# Python GPU Docker image
 
 ## Usage
 ```bash
