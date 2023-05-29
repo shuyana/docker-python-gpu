@@ -30,6 +30,7 @@ RUN apt update \
         python3.9-venv \
         python3-pip \
         python-is-python3 \
+        tmux \
         wget \
     && rm -rf /var/lib/apt/lists/* \
     && apt autoremove -y \
