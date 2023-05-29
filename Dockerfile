@@ -31,6 +31,7 @@ RUN apt update \
         python3-pip \
         python-is-python3 \
         tmux \
+        vim \
         wget \
     && rm -rf /var/lib/apt/lists/* \
     && apt autoremove -y \
