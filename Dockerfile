@@ -16,6 +16,7 @@ RUN apt update \
 RUN apt update \
     && apt install --no-install-recommends -y \
         build-essential \
+        default-jdk \
         git \
         git-lfs \
         gosu \
