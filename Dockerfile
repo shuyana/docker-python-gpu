@@ -16,7 +16,6 @@ RUN apt update \
 RUN apt update \
     && apt install --no-install-recommends -y \
         build-essential \
-        default-jdk \
         git \
         git-lfs \
         gosu \
@@ -32,6 +31,7 @@ RUN apt update \
         python3-pip \
         python-is-python3 \
         tmux \
+        unzip \
         vim \
         wget \
     && rm -rf /var/lib/apt/lists/* \
